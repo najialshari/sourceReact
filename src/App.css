@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #052C65;
+  color: white;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.link {
+padding: 10px 0px; 
+margin: 0px 10px;
+text-align: center;
+text-decoration: underline;
+color: #F4F4F4;
+border-radius: 5px;
+width: 100px;
+}
+.link:hover{
+  color: #0A58CA;
+}
+.navbar-brand:hover{
+  text-decoration: underline;
+
+}
