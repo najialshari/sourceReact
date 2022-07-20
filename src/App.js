@@ -22,6 +22,7 @@ function App() {
             <Route path="/Photos" element={<Photos />} />
             <Route path="/Users" element={<Users />} />
             <Route path="/Search/:filter" element={<Search />} /> 
+            <Route path="/*" element={<Sources />} /> 
           </Routes>
         </div>
     </>
